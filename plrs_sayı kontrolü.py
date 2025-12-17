@@ -1,14 +1,15 @@
 def main():
     x = get_int("Sayıyı girin: ")
-    print(f"Girdiğiniz {x} değeri bir sayıdır.")
 
 
 def get_int(prompt):
     while True:
-       try:
+        try:
             x = int(input(prompt))
+            print(f"Girdiğiniz {x} değeri bir sayıdır.")
+             
+        except ValueError:
+            print("Lütfen geçerli bir sayı giriniz.")
 
-       except ValueError:
-            print("Lütfen geçerli bir sayı giriniz. ")
 
 main()
