@@ -28,4 +28,5 @@ def main():
          print("Geçersiz tarih formatı. Lütfen 'gün-ay-yıl saat.dakika' formatında giriniz.")
        
 
-main()
+while True:
+   main()
