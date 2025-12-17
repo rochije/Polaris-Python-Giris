@@ -10,5 +10,5 @@ def get_int(prompt):
 
        except ValueError:
             print("Lütfen geçerli bir sayı giriniz. ")
-       break
+
 main()
